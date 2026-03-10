@@ -169,6 +169,17 @@ Dive deeper into specific topics:
 | [Plugins](guides/04-plugins.md) | Plugin setup, configuration, and use cases |
 | [Project Setup](guides/05-project-setup.md) | Adapting the starter kit to your project |
 
+## Recommended Resources
+
+| Repository | Description |
+|------------|-------------|
+| [better-ccflare](https://github.com/tombii/better-ccflare) | Improved Cloudflare integration for Claude Code |
+| [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Curated list of great Claude Code projects, tools, and resources |
+| [GitHub MCP](https://github.com/anthropics/claude-code-github-mcp) | Official MCP plugin for issues, PRs, code search, and reviews |
+| [SQL MCP](https://github.com/anthropics/claude-code-sql-mcp) | Official MCP plugin for database queries and schema exploration |
+| [Get Shit Done](https://github.com/gsd-build/get-shit-done/) | Opinionated project management framework for Claude Code -- roadmaps, phased execution, and verification built into your workflow |
+| [PeonPing](https://www.peonping.com/) | 160+ Warcraft & StarCraft voice packs that yell at you when Claude is done. Never alt-tab to check your terminal again -- your Peon will let you know. Also doubles as a fitness coach, because apparently we need an Orc to remind us to do pushups. |
+
 ---
 
 Built from real-world experience across production codebases. No theory -- only patterns that survived contact with deadlines.
