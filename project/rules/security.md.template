@@ -1,0 +1,38 @@
+# Security
+
+## Input Validation
+
+<!-- CUSTOMIZE: Describe your input validation approach -->
+- Validate all user input at system boundaries
+- Use parameterized queries (never string concatenation in SQL)
+- Sanitize output to prevent XSS
+
+## Authentication & Authorization
+
+<!-- CUSTOMIZE: Describe your auth patterns -->
+<!-- - How are routes protected? -->
+<!-- - How are permissions checked? -->
+<!-- - Are there role-based access controls? -->
+
+## Error Handling
+
+- NEVER swallow errors silently
+- Log errors with context (request ID, user, action)
+- Do not expose internal details in error responses
+- Return appropriate HTTP status codes
+
+## Secrets Management
+
+- No hardcoded secrets, API keys, or passwords in code
+- Use environment variables or secret managers
+- Never log sensitive data (passwords, tokens, PII)
+
+## Common Vulnerabilities
+
+<!-- CUSTOMIZE: Add framework-specific security rules -->
+- [ ] SQL Injection: Use parameterized queries
+- [ ] XSS: Escape user input in output
+- [ ] CSRF: Use anti-CSRF tokens
+- [ ] Command Injection: Never pass user input to shell commands
+- [ ] Path Traversal: Validate file paths
+- [ ] IDOR: Check authorization for every resource access

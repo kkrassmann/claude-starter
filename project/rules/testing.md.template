@@ -1,0 +1,52 @@
+# Testing
+
+## Running Tests
+
+```bash
+# Run all tests
+<!-- CUSTOMIZE: test-command -->
+
+# Run specific test file
+<!-- CUSTOMIZE: test-single-command -->
+
+# Run tests matching a pattern
+<!-- CUSTOMIZE: test-pattern-command -->
+```
+
+## Test Structure
+
+<!-- CUSTOMIZE: Define your test file organization -->
+<!--
+```
+test/
+  unit/
+  integration/
+  e2e/
+```
+-->
+
+## Conventions
+
+- One test = one scenario (single action principle)
+- Test names describe the expected behavior
+- Each test is independent (no shared mutable state)
+- Use setup/teardown for common initialization
+- Prefer specific assertions over generic ones
+
+## Test Data
+
+<!-- CUSTOMIZE: Describe how test data is managed -->
+<!-- - Factories, fixtures, builders, etc. -->
+
+## What to Test
+
+- Happy path for each endpoint/function
+- Error cases (invalid input, missing permissions)
+- Edge cases (empty arrays, null values, boundaries)
+- Security: unauthorized access attempts
+
+## What NOT to Test
+
+- Third-party library internals
+- Trivial getters/setters
+- Implementation details (test behavior, not structure)

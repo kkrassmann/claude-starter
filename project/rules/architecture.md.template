@@ -1,0 +1,43 @@
+# Architecture
+
+## Layers
+
+<!-- CUSTOMIZE: Define your project's architectural layers -->
+<!-- Example for a web API: -->
+<!--
+| Layer | Responsibility |
+|-------|----------------|
+| Controller | Route registration, input validation, response formatting |
+| Service | Business logic, orchestration |
+| Repository | Data access, query building |
+| Model | Data structures, validation rules |
+-->
+
+## Module Structure
+
+<!-- CUSTOMIZE: Define your module/directory structure -->
+<!-- Example: -->
+<!--
+```
+src/
+  modules/<module>/
+    controller.ts
+    service.ts
+    repository.ts
+    model.ts
+    tests/
+```
+-->
+
+## Key Conventions
+
+<!-- CUSTOMIZE: Add your architecture rules -->
+<!-- Examples: -->
+<!-- - Controllers never access the database directly -->
+<!-- - Services can call other services but not controllers -->
+<!-- - Models are pure data - no business logic -->
+<!-- - Dependencies flow inward: Controller -> Service -> Repository -->
+
+## Dependency Injection
+
+<!-- CUSTOMIZE: Describe your DI pattern if applicable -->
