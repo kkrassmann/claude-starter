@@ -168,6 +168,7 @@ Approfondissez des sujets specifiques :
 | [Pipeline de revue](guides/03-review-pipeline.md) | Le systeme de revue a 6 dimensions en detail |
 | [Plugins](guides/04-plugins.md) | Installation, configuration et cas d'usage des plugins |
 | [Configuration projet](guides/05-project-setup.md) | Adapter le starter kit a votre projet |
+| [Gestion du contexte](guides/fr/06-gestion-du-contexte.md) | Garder le controle de la fenetre de contexte |
 
 ---
 

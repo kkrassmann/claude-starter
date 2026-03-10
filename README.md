@@ -168,6 +168,7 @@ Dive deeper into specific topics:
 | [Review Pipeline](guides/03-review-pipeline.md) | The 6-dimension review system in detail |
 | [Plugins](guides/04-plugins.md) | Plugin setup, configuration, and use cases |
 | [Project Setup](guides/05-project-setup.md) | Adapting the starter kit to your project |
+| [Context Management](guides/06-context-management.md) | Staying in control of the context window |
 
 ## Recommended Resources
 
